@@ -10,7 +10,7 @@ int main(){
 
     smart_array array = smart_array(10);
     for (int i = 0; i < 40000; i++){
-        array.push_back(i);
+        array.Append(i);
     }
 
 
